@@ -1,0 +1,26 @@
+{
+  "name": "simbiox",
+  "version": "1.0.0",
+  "description": "desafio tecnico fullstack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruan-Pedro/Desafio-Simbiox.git"
+  },
+  "author": "Ruan Pedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruan-Pedro/Desafio-Simbiox/issues"
+  },
+  "homepage": "https://github.com/Ruan-Pedro/Desafio-Simbiox#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
