@@ -1,1 +1,18 @@
-<p>detalhes works!</p>
+<div class="column">
+  <div class="row">
+    <div class="logo">
+      <img [src]="[url_img]" alt="">
+    </div>
+    <p> Nome do Curso : {{curso}}</p>
+    <p> Nível do Curso : {{level}}</p>
+  </div>
+
+  <div class="row">
+    <p> Nome da Universidade : {{nomeUniv}} / Pontuação da Universidade : {{ScoreUniv}} </p>
+    <p> Nome do Campus : {{nomeCampus}} / Cidade do Campus : {{cityCampus}}</p>
+  </div>
+
+  <div class="row">
+    <p> Preço do Curso : {{full_price | currency: 'BRL'}}</p>
+  </div>
+</div>
